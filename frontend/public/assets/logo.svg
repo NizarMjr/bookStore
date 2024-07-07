@@ -1,0 +1,19 @@
+<svg width="100" height="60" viewBox="0 0 150 60" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .main-title {
+      font-family: 'Cairo', sans-serif;
+      font-size: 30px;
+      fill: #4A90E2;
+    }
+    .subtitle {
+      font-family: 'Cairo', sans-serif;
+      font-size: 16px;
+      fill: #4A90E2;
+      font-weight: bold;
+    }
+   
+    
+  </style>
+  <text x="60" y="25" class="main-title">كتابي</text>
+  <text x="60" y="45" class="subtitle">my book</text>
+</svg>

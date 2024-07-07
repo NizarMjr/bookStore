@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@200..1000&display=swap');
+
+html {
+    direction: rtl;
+}
+
+body {
+    font-family: 'Cairo', sans-serif;
+}
+
+.error {
+    color: #ff0099;
+    margin: 10px 2px;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+input:focus {
+    outline: none;
+}
+
+/* swipper styling */
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev,
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+    content: 'next';
+    font-size: 8px !important;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: #2563eb;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
